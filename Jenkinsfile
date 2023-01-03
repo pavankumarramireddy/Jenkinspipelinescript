@@ -5,7 +5,7 @@ pipeline{
   agent {
     label 'java'
   }
-  
+  stages{
   stages('build'){
     
     steps{
