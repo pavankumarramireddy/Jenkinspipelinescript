@@ -6,7 +6,7 @@ pipeline{
     label 'java'
   }
   stages{
-  stages('build'){
+  stage('build'){
     
     steps{
       println "From declarative pipeline script - build stage"
